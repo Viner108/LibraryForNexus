@@ -1,0 +1,7 @@
+<servers>
+    <server>
+        <id>nexus-snapshots</id>
+        <username>System.getenv("NEXUS_CI_USER")</username>
+        <password>System.getenv("NEXUS_CI_PASS")</password>
+    </server>
+</servers>
